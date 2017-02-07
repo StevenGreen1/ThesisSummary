@@ -1,0 +1,53 @@
+%--\documentclass[hyperpdf,bindnopdf]{hepthesis}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathpazo}
+
+\input{preamble}
+
+\begin{document}
+
+\title{Calorimetry At A Future Linear Collider}
+\author{Steven Green}
+\date{}
+\maketitle
+
+%%For Cambridge soft-bound version
+%--\documentclass[hyperpdf,bindnopdf]{hepthesis}
+
+%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
+%\% Title
+%\titlepage[of Emmanuel College]{%
+%  A dissertation submitted to the University of Cambridge\\ for the degree of Doctor of Philosophy}
+
+%% Abstract
+%--\begin{abstract}%[\smaller \thetitle\\ \vspace*{1cm} \smaller {\theauthor}]
+  %\thispagestyle{empty}
+This thesis describes the optimisation of the calorimeter design for collider experiments
+at the future Compact LInear Collider (CLIC) and the International Linear Collider (ILC). 
+The detector design of these experiments is built around high-granularity Particle Flow Calorimetry
+that, in contrast to traditional calorimetry, uses the energy measurements for charged particles from 
+the tracking detectors. This can only be realised if calorimetric energy deposits from
+charged particles can be separated from those of neutral particles. This is made possible with fine
+granularity calorimeters and sophisticated pattern recognition software, which is provided by the
+PandoraPFA algorithm. This thesis presents results on Particle Flow calorimetry performance for a number
+of detector configurations. To obtain these results a new calibration procedure was developed 
+and applied to the detector simulation and reconstruction to ensure optimal performance 
+was achieved for each detector configuration considered.
+
+This thesis also describes the development of a software compensation technique that vastly improves the
+intrinsic energy resolution of a Particle Flow Calorimetry detector. This technique is implemented
+within the PandoraPFA framework and demonstrates the gains that can be made by fully exploiting
+the information provided by the fine granularity calorimeters envisaged at a future linear collider.
+
+A study of the sensitivity of the CLIC experiment to anomalous gauge couplings that
+effect vector boson scattering processes is presented. These anomalous couplings provide insight
+into possible beyond standard model physics. This study, which utilises the excellent jet energy resolution from
+Particle Flow Calorimetry, was performed at centre-of-mass energies of 1.4 TeV and 3 TeV with integrated 
+luminosities of 1.5$\text{ab}^{-1}$ and 2$\text{ab}^{-1}$ respectively. The precision achievable at CLIC is shown to be approximately 
+one to two orders of magnitude better than that currently offered by the LHC.
+
+Finally, a study into various technology options for the CLIC vertex detector is described.
+%--\end{abstract}
+
+\end{document}
